@@ -1,0 +1,1530 @@
+repo_name: dhqcz/rotki
+report_id: 181f72c15090fc31d3c08a0165bb35b3
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-23T18:34:28+00:00'
+requested_by: yabirgb
+provider: github
+branch: develop
+detected_tools_count: 104
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/dhqcz/rotki
+  detection_source: Repo Metadata
+- name: Perl
+  description: Highly capable, feature-rich programming language with over 26 years
+    of development
+  website_url: http://www.perl.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1048/perl.png
+  detection_source_url: https://github.com/dhqcz/rotki
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/dhqcz/rotki
+  detection_source: Repo Metadata
+- name: Rust
+  description: A safe, concurrent, practical language
+  website_url: http://www.rust-lang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: https://github.com/dhqcz/rotki
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/rotkehlchen/data/globaldb_v2_v3_assets.sql
+  detection_source: rotkehlchen/data/globaldb_v2_v3_assets.sql
+  last_updated_by: Yabir Benchakhtir
+  last_updated_on: 2022-09-15 12:40:29.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/dhqcz/rotki
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2017-05-09 08:31:48.000000000 Z
+- name: Chart.js
+  description: Simple, clean and engaging charts for designers and developers
+  website_url: http://www.chartjs.org/
+  version: 4.3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Luki Centuri
+  last_updated_on: 2023-05-10 09:09:02.000000000 Z
+- name: Electron
+  description: Build cross platform desktop apps with JavaScript, HTML, and CSS
+  website_url: http://electron.atom.io/
+  version: 24.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Desktop Development
+  image_url: https://img.stackshare.io/service/2946/default_18a71b65e69d7aef5f218ae07f64eb6e1594c444.jpg
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/dev-proxy/package.json
+  detection_source: frontend/dev-proxy/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-02-22 15:48:38.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 18.0.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2020-03-10 23:03:32.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2017-05-09 08:31:48.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2017-05-09 08:31:48.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 2.7.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-01-06 15:13:28.000000000 Z
+- name: Vuetify
+  description: Material Component Framework for VueJS 2
+  website_url: https://vuetifyjs.com/
+  version: 2.6.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/6163/PzNbCwXH.jpg
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-04-25 10:47:13.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/.codecov.yml
+  detection_source: ".codecov.yml"
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2020-04-15 17:40:52.000000000 Z
+- name: Cypress
+  description: When testing is easy, developers build better things faster and with
+    confidence.
+  website_url: https://www.cypress.io/
+  version: 12.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/dhqcz/rotki
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2022-11-15 09:17:20.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2017-05-09 08:31:48.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dhqcz/rotki
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/.github/workflows/rotki_cassette_merge.yml
+  detection_source: ".github/workflows/rotki_cassette_merge.yml"
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-03-29 15:53:07.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/packaging/docker/nginx.conf
+  detection_source: packaging/docker/nginx.conf
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2020-03-10 23:03:32.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2017-05-09 08:31:48.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_profiling.txt
+  detection_source: requirements_profiling.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2021-11-27 15:44:09.000000000 Z
+- name: Pylint
+  description: Source-code, bug and quality checker for the Python programming language
+  website_url: https://www.pylint.org/
+  version: 2.17.4
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4837/py.jpg
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_lint.txt
+  detection_source: requirements_lint.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-05-07 15:05:39.000000000 Z
+- name: Stylelint
+  description: A mighty, modern CSS linter
+  website_url: http://stylelint.io/
+  version: 15.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2017-05-09 08:31:48.000000000 Z
+- name: flake8
+  description: Tool for style guide enforcement
+  website_url: https://github.com/PyCQA/flake8
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4838/default_c37162891c64eca7fafe782d9c191e409aae1e93.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_lint.txt
+  detection_source: requirements_lint.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-05-07 15:11:30.000000000 Z
+- name: gevent
+  description: Coroutine network library for Python
+  website_url: http://gevent.org
+  version: 22.10.2
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1772/s9Bm2Iyx_400x400.jpg
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2022-11-04 20:52:21.000000000 Z
+- name: isort
+  description: A Python utility / library to sort imports
+  website_url: https://pycqa.github.io/isort/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4835/default_0a87fe83d3c6dc2bd452e7bf2428b32269c080d2.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_lint.txt
+  detection_source: requirements_lint.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-01-29 17:51:43.000000000 Z
+- name: jsdom
+  description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
+    use with node.js
+  website_url: https://github.com/jsdom/jsdom
+  version: 22.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7054/preview.jpeg
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/dev-proxy/package.json
+  detection_source: frontend/dev-proxy/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2021-07-16 09:21:26.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 7.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_dev.txt
+  detection_source: requirements_dev.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-04-15 16:04:24.000000000 Z
+- name: Cleave.js
+  description: Format input text content when you are typing
+  website_url: https://nosir.github.io/cleave.js/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/21958/default_1224eb8d21537064d2f315c3e3f1e6a0518c3c59.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-01-06 15:13:28.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-04-25 10:47:13.000000000 Z
+- name: Pinia
+  description: The Vue Store that you will enjoy using
+  website_url: https://pinia.vuejs.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48301/default_0cffd727391e16b2a8bd6edbcffc0255a3a541d0.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/dhqcz/rotki
+  detection_source: Repo Metadata
+- name: Sphinx
+  description: Open source full text search server, designed from the ground up with
+    performance, relevance (aka search quality), and integration simplicity in mind
+  website_url: http://sphinxsearch.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/1598/TtqoAo1V.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_docs.txt
+  detection_source: requirements_docs.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2022-08-14 13:41:44.000000000 Z
+- name: Zod
+  description: TypeScript-first schema validation
+  website_url: https://zod.dev/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48521/default_eea961e4c374e68a1c7eb5bbc9e4a39920890342.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2017-05-09 08:31:48.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: mypy
+  description: Developers of mypy, a Python variant with seamless dynamic and static
+    typing
+  website_url: http://mypy-lang.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7350/eaca159133a3901e24ddb407d1235c25_normal.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_lint.txt
+  detection_source: requirements_lint.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-05-14 14:22:36.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 4.3.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
+  - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
+      (//)
+    cve_id: CVE-2023-34092
+    cve_url: https://github.com/advisories/GHSA-353f-5xf4-qw67
+    detected_date: Nov 23
+    severity: high
+    first_patched: 4.3.9
+  - name: Vite's `server.fs.deny` did not deny requests for patterns with directories.
+    cve_id: CVE-2024-31207
+    cve_url: https://github.com/advisories/GHSA-8jhw-289h-jh2g
+    detected_date: Apr 4
+    severity: moderate
+    first_patched: 4.5.3
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/dev-proxy/package.json
+  detection_source: frontend/dev-proxy/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-02-22 15:48:38.000000000 Z
+  vulnerabilities:
+  - name: Express.js Open Redirect in malformed URLs
+    cve_id: CVE-2024-29041
+    cve_url: https://github.com/advisories/GHSA-rv95-896h-c2vc
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 4.19.2
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 7.5.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+  vulnerabilities:
+  - name: semver vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2022-25883
+    cve_url: https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 7.5.2
+- name: "@types/body-parser"
+  description: TypeScript definitions for body-parser
+  package_url: https://www.npmjs.com/@types/body-parser
+  version: 1.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16808/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/dev-proxy/package.json
+  detection_source: frontend/dev-proxy/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/dev-proxy/package.json
+  detection_source: frontend/dev-proxy/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.194
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.16.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: "@vue/test-utils"
+  description: Utilities for testing Vue components
+  package_url: https://www.npmjs.com/@vue/test-utils
+  version: 1.3.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16231/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: argparse
+  description: Very powerful CLI arguments parser
+  package_url: https://www.npmjs.com/argparse
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17073/default_23002b02644a8cb313a0f53f43df271731022a9e.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2022-11-29 16:21:08.000000000 Z
+- name: bignumber.js
+  description: A library for arbitrary-precision decimal and non-decimal arithmetic
+  package_url: https://www.npmjs.com/bignumber.js
+  version: 9.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16433/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2022-12-09 13:36:32.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.20.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/dev-proxy/package.json
+  detection_source: frontend/dev-proxy/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-02-22 15:48:38.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 3.30.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/common/package.json
+  detection_source: frontend/common/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: csv
+  description: CSV parser with simple api
+  package_url: https://www.npmjs.com/csv
+  version: 6.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2017-05-09 08:31:48.000000000 Z
+- name: dayjs
+  description: 2KB immutable date time library alternative to Moment.js with the same
+    modern API
+  package_url: https://www.npmjs.com/dayjs
+  version: 1.11.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16833/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2022-12-09 00:09:59.000000000 Z
+- name: electron-builder
+  description: A complete solution to package and build a ready for distribution Electron
+    app for MacOS
+  package_url: https://www.npmjs.com/electron-builder
+  version: 23.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17567/default_cce6af1cc5c037d170650dfd256f479915d5a8e4.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: eslint-plugin-cypress
+  description: An ESLint plugin for projects using Cypress
+  package_url: https://www.npmjs.com/eslint-plugin-cypress
+  version: 2.13.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18548/default_0998c3a5bd64540d478b8f189bd9d22c3c17b6a0.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: eslint-plugin-vue
+  description: Official ESLint plugin for Vue.js
+  package_url: https://www.npmjs.com/eslint-plugin-vue
+  version: 9.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15950/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: http-proxy-middleware
+  description: The one-liner node.js proxy middleware for connect
+  package_url: https://www.npmjs.com/http-proxy-middleware
+  version: 2.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16167/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/dev-proxy/package.json
+  detection_source: frontend/dev-proxy/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2022-12-09 00:09:59.000000000 Z
+- name: loglevel
+  description: Minimal lightweight logging for JavaScript
+  package_url: https://www.npmjs.com/loglevel
+  version: 1.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17004/default_43f23668e39c9b3381720c9c76540776b8a49167.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2022-11-15 09:17:20.000000000 Z
+- name: postcss-scss
+  description: SCSS parser for PostCSS
+  package_url: https://www.npmjs.com/postcss-scss
+  version: 4.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16233/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: register-service-worker
+  description: Script for registering service worker, with hooks
+  package_url: https://www.npmjs.com/register-service-worker
+  version: 1.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18539/default_e75c3c83e4af96462c99ddf6aabdef371444ed62.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 5.0.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/common/package.json
+  detection_source: frontend/common/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: source-map-support
+  description: Fixes stack traces for files with source maps
+  package_url: https://www.npmjs.com/source-map-support
+  version: 0.5.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: stylelint-config-recommended-scss
+  description: Recommended shareable SCSS config for stylelint
+  package_url: https://www.npmjs.com/stylelint-config-recommended-scss
+  version: 11.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18141/default_3e053d4b47b1198323e0d3094fad02237b4d3c17.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: stylelint-order
+  description: A collection of order related linting rules for stylelint
+  package_url: https://www.npmjs.com/stylelint-order
+  version: 6.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16709/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: stylelint-scss
+  description: A collection of SCSS specific rules for stylelint
+  package_url: https://www.npmjs.com/stylelint-scss
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16626/default_9012166d3e51cea5db6b4e69c80ace1c50b7509d.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/dev-proxy/package.json
+  detection_source: frontend/dev-proxy/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 2.7.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2017-05-09 08:31:48.000000000 Z
+- name: vue-i18n
+  description: Internationalization plugin for Vue.js
+  package_url: https://www.npmjs.com/vue-i18n
+  version: 8.28.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16963/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: vue-router
+  description: Official router for Vue.js 2
+  package_url: https://www.npmjs.com/vue-router
+  version: 3.6.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15969/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  version: 2.7.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/frontend/app/package.json
+  detection_source: frontend/app/package.json
+  last_updated_by: Konstantinos Paparas
+  last_updated_on: 2023-05-19 17:10:06.000000000 Z
+- name: cryptography
+  description: Cryptography is a package which provides cryptographic recipes and
+    primitives to Python developers
+  package_url: https://pypi.org/project/cryptography
+  version: 40.0.2
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19850/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-05-06 13:43:14.000000000 Z
+  vulnerabilities:
+  - name: cryptography NULL pointer dereference with pkcs12.serialize_key_and_certificates
+      when called with a non-matching certificate and private key and an hmac_hash
+      override
+    cve_id: CVE-2024-26130
+    cve_url: https://github.com/advisories/GHSA-6vqw-3v5j-54x4
+    detected_date: Feb 22
+    severity: high
+    first_patched: 42.0.4
+  - name: cryptography mishandles SSH certificates
+    cve_id: CVE-2023-38325
+    cve_url: https://github.com/advisories/GHSA-cf7p-gm2m-833m
+    detected_date: Jul 15
+    severity: high
+    first_patched: 41.0.2
+  - name: Python Cryptography package vulnerable to Bleichenbacher timing oracle attack
+    cve_id: CVE-2023-50782
+    cve_url: https://github.com/advisories/GHSA-3ww4-gg4f-jr7f
+    detected_date: Feb 6
+    severity: high
+    first_patched: 42.0.0
+  - name: cryptography vulnerable to NULL-dereference when loading PKCS7 certificates
+    cve_id: CVE-2023-49083
+    cve_url: https://github.com/advisories/GHSA-jfhm-5ghh-2f97
+    detected_date: Nov 29
+    severity: moderate
+    first_patched: 41.0.6
+  - name: Null pointer dereference in PKCS12 parsing
+    cve_id: CVE-2024-0727
+    cve_url: https://github.com/advisories/GHSA-9v9h-cgj8-h64p
+    detected_date: Feb 17
+    severity: moderate
+    first_patched: 42.0.2
+  - name: Vulnerable OpenSSL included in cryptography wheels
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-v8gr-m533-ghj9
+    detected_date: Sep 22
+    severity: low
+    first_patched: 41.0.4
+  - name: Vulnerable OpenSSL included in cryptography wheels
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-5cpq-8wj7-hf2v
+    detected_date: Jun 3
+    severity: low
+    first_patched: 41.0.0
+  - name: pyca/cryptography's wheels include vulnerable OpenSSL
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-jm77-qphf-c4w8
+    detected_date: Aug 2
+    severity: low
+    first_patched: 41.0.3
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.30.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-05-06 13:45:25.000000000 Z
+  vulnerabilities:
+  - name: Requests `Session` object does not verify requests after making first request
+      with verify=False
+    cve_id: CVE-2024-35195
+    cve_url: https://github.com/advisories/GHSA-9wx4-h78v-vm56
+    detected_date: May 21
+    severity: moderate
+    first_patched: 2.32.0
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  version: 1.26.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-03-12 10:05:27.000000000 Z
+  vulnerabilities:
+  - name: 'urllib3''s Proxy-Authorization request header isn''t stripped during cross-origin
+      redirects '
+    cve_id: CVE-2024-37891
+    cve_url: https://github.com/advisories/GHSA-34jh-p97f-mpxf
+    detected_date: Jun 18
+    severity: moderate
+    first_patched: 1.26.19
+  - name: urllib3's request body not stripped after redirect from 303 status changes
+      request method to GET
+    cve_id: CVE-2023-45803
+    cve_url: https://github.com/advisories/GHSA-g4mx-q9vg-27p4
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.26.18
+  - name: "`Cookie` HTTP header isn't stripped on cross-origin redirects"
+    cve_id: CVE-2023-43804
+    cve_url: https://github.com/advisories/GHSA-v845-jxx5-vc9f
+    detected_date: Oct 3
+    severity: moderate
+    first_patched: 1.26.17
+- name: astroid
+  description: An abstract syntax tree for Python with inference support
+  package_url: https://pypi.org/project/astroid
+  version: 2.15.4
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20125/default_63b818b0ea63c702db9131c12dd2fd2fad35ca3b.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_lint.txt
+  detection_source: requirements_lint.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-05-07 15:05:39.000000000 Z
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  version: 4.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-04-15 17:39:37.000000000 Z
+- name: coincurve
+  description: Cross-platform Python CFFI bindings for libsecp256k1
+  package_url: https://pypi.org/project/coincurve
+  version: 17.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20584/default_6173a6647ae0967018ee7fa2be099d09f2b82edc.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2022-02-05 18:28:20.000000000 Z
+- name: coverage
+  description: Code coverage measurement for Python
+  package_url: https://pypi.org/project/coverage
+  version: 6.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19904/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_dev.txt
+  detection_source: requirements_dev.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2022-10-23 21:34:27.000000000 Z
+- name: flake8-bugbear
+  description: A plugin for flake8 finding likely bugs and design problems in your
+    program
+  package_url: https://pypi.org/project/flake8-bugbear
+  version: 23.3.23
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_lint.txt
+  detection_source: requirements_lint.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-05-07 15:11:30.000000000 Z
+- name: flake8-comprehensions
+  description: A flake8 plugin to help you write better list/set/dict comprehensions
+  package_url: https://pypi.org/project/flake8-comprehensions
+  version: 3.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_lint.txt
+  detection_source: requirements_lint.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-05-07 15:11:30.000000000 Z
+- name: flake8-debugger
+  description: Ipdb/pdb statement checker plugin for flake8
+  package_url: https://pypi.org/project/flake8-debugger
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_lint.txt
+  detection_source: requirements_lint.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-05-07 15:11:30.000000000 Z
+- name: freezegun
+  description: Let your Python tests travel through time
+  package_url: https://pypi.org/project/freezegun
+  version: 1.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20595/default_9322f13ef9811bfc120f244dc670f7e4fb5b8aa3.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_dev.txt
+  detection_source: requirements_dev.txt
+  last_updated_by: Yabir Benchakhtir
+  last_updated_on: 2023-01-17 20:37:29.000000000 Z
+- name: gevent-websocket
+  description: Websocket handler for the gevent pywsgi server
+  package_url: https://pypi.org/project/gevent-websocket
+  version: 0.10.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2022-11-04 20:52:21.000000000 Z
+- name: google-api-core
+  description: Google API client core library
+  package_url: https://pypi.org/project/google-api-core
+  version: 2.11.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20073/default_d7fc4eabe57370d13c2a8ad2f7f6bb876c96c66d.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_dev.txt
+  detection_source: requirements_dev.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-03-06 10:45:21.000000000 Z
+- name: google-api-python-client
+  description: Google API Client Library for Python
+  package_url: https://pypi.org/project/google-api-python-client
+  version: 2.80.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19897/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_dev.txt
+  detection_source: requirements_dev.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-03-06 10:45:21.000000000 Z
+- name: google-auth
+  description: Google Authentication Library
+  package_url: https://pypi.org/project/google-auth
+  version: 2.16.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19955/default_1965f66bb5a4d2eb7b31193d7be6d8a9041d02b9.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_dev.txt
+  detection_source: requirements_dev.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-03-06 10:45:21.000000000 Z
+- name: gql
+  description: GraphQL client for Python
+  package_url: https://pypi.org/project/gql
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2018-09-23 13:42:05.000000000 Z
+- name: greenlet
+  description: Lightweight in-process concurrent programming
+  package_url: https://pypi.org/project/greenlet
+  version: 2.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20137/default_e3ea003987b13e5c9b8c9000c748b25a9c0d9ecd.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-03-04 11:19:12.000000000 Z
+- name: marshmallow
+  description: A lightweight library for converting complex datatypes to and from
+    native Python datatypes
+  package_url: https://pypi.org/project/marshmallow
+  version: 3.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19893/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2022-11-30 11:03:37.000000000 Z
+- name: maxminddb
+  description: Reader for the MaxMind DB format
+  package_url: https://pypi.org/project/maxminddb
+  version: 2.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Yabir Benchakhtir
+  last_updated_on: 2021-12-14 18:13:50.000000000 Z
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/project/mypy
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_lint.txt
+  detection_source: requirements_lint.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-05-14 14:22:36.000000000 Z
+- name: objgraph
+  description: Draws Python object reference graphs with graphviz
+  package_url: https://pypi.org/project/objgraph
+  version: 3.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_profiling.txt
+  detection_source: requirements_profiling.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2021-11-27 15:44:09.000000000 Z
+- name: pep8-naming
+  description: Check PEP-8 naming conventions, plugin for flake8
+  package_url: https://pypi.org/project/pep8-naming
+  version: 0.13.3
+  license: Saxpath
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20732/default_a1230263c1022e7a5f1ab77d48a7703cf2c2878e.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_lint.txt
+  detection_source: requirements_lint.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2022-12-25 23:35:31.000000000 Z
+- name: psutil
+  description: Cross-platform lib for process and system monitoring in Python
+  package_url: https://pypi.org/project/psutil
+  version: 5.9.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19851/default_ac77a75c05474acf9389d56b1f5cc8241af4c384.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_dev.txt
+  detection_source: requirements_dev.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2022-11-30 11:05:12.000000000 Z
+- name: pytest-cov
+  description: Pytest plugin for measuring coverage
+  package_url: https://pypi.org/project/pytest-cov
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_dev.txt
+  detection_source: requirements_dev.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-04-15 16:04:24.000000000 Z
+- name: sphinx_rtd_theme
+  description: Read the Docs theme for Sphinx
+  package_url: https://pypi.org/project/sphinx_rtd_theme
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20304/default_506725603cd9affb22ffa36e3939310b26cbf952.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_docs.txt
+  detection_source: requirements_docs.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2022-08-14 13:41:44.000000000 Z
+- name: sphinxcontrib-httpdomain
+  description: Sphinx domain for documenting HTTP APIs
+  package_url: https://pypi.org/project/sphinxcontrib-httpdomain
+  version: 1.8.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements_docs.txt
+  detection_source: requirements_docs.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2022-08-14 13:41:44.000000000 Z
+- name: typing-extensions
+  description: Backported and Experimental Type Hints for Python 3.5+
+  package_url: https://pypi.org/project/typing-extensions
+  version: 4.5.0
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19875/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2023-03-12 10:04:49.000000000 Z
+- name: web3
+  description: Web3.py
+  package_url: https://pypi.org/project/web3
+  version: 5.31.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20162/default_4ac30e385d247a1f87c5fe3f3f00001d9c4df723.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2022-12-04 09:13:21.000000000 Z
+- name: webargs
+  description: Declarative parsing and validation of HTTP request objects
+  package_url: https://pypi.org/project/webargs
+  version: 8.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20341/default_3670ab404b4eee78239483be316d65defac12ad1.png
+  detection_source_url: https://github.com/dhqcz/rotki/blob/develop/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lefteris Karapetsas
+  last_updated_on: 2022-07-16 20:11:23.000000000 Z
